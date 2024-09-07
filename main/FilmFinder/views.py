@@ -21,7 +21,7 @@ class FilmApiView(APIView):
             return Response({"detail": "not accept account", "error": "true"})
 
         except Exception:
-            return Response({"detail": "not correct data", "error": "true"}) #  #
+            return Response({"detail": "not correct data", "error": "true"}) 
 
 
 class UserApiRegister(APIView):
